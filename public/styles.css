@@ -1,0 +1,103 @@
+body {
+  background-color: teal;
+}
+
+.App {
+  margin: 3rem 4rem;
+  max-width: 500px;
+  margin: auto;
+  max-height: 400px;
+  min-height: 250px;
+}
+
+.heading {
+  font-size: 44px;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.destination {
+  max-width: 600px;
+
+  margin: auto;
+  padding: 3.5rem 0.2rem;
+}
+
+.img-1 {
+  /* height: 330px; */
+  /* max-height: 350px;
+  display: inline-block;
+  overflow: hidden; */
+
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  /* width: 100%; */
+  height: 14.5rem;
+  object-fit: cover;
+}
+
+.info {
+  margin: auto;
+  padding: 1.1rem;
+}
+
+p {
+  margin: 0;
+  text-align: left;
+  color: grey;
+}
+
+.tour-card {
+  /* border: thick double #32a1ce; */
+  margin-bottom: 1.3rem;
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 8px 2px dimgrey;
+  border-radius: 6px;
+}
+
+a {
+  margin-left: 13rem;
+}
+
+.tour-price {
+  background: #afeeee;
+  color: #1e90ff;
+  padding: auto;
+  height: 15%;
+  border-radius: 4px;
+}
+
+.remove-btn {
+  margin: 0 7rem;
+  padding: 0.3rem 2rem;
+  border-radius: 0.2rem;
+}
+
+.content {
+  display: flex;
+}
+
+.tour-detail {
+  justify-content: space-between;
+}
+
+.read-btn {
+  border: none;
+  background: white;
+  color: #00bfff;
+  cursor: pointer;
+  margin: 0;
+}
+
+.refresh-btn {
+  border-radius: 0.2rem;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  padding: 0.5rem 2rem;
+  font-size: 20px;
+}
